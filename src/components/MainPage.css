@@ -1,0 +1,29 @@
+/* MainPage.css */
+
+.typed-text {
+    font-size: 2rem;
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+  
+.cursor {
+    animation: blink 0.7s infinite step-start;
+}
+
+.background-main {
+    height: 100vh;
+    background-color: #a5c5e6;
+    background-image: url('../images/MainPageBackground.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+  

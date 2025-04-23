@@ -1,0 +1,10 @@
+/* ExperiencePage.css */
+
+.background-experience {
+  height: 100vh;
+  background-color: #a5c5e6;
+  background-image: url('../images/ExperiencePageBackground.png');
+  background-size: cover;
+  background-position: center;
+}
+  

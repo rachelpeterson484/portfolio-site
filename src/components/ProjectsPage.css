@@ -1,0 +1,9 @@
+/* ProjectsPage.css */
+
+.background-projects {
+    height: 100vh;
+    background-color: #a5c5e6;
+    background-image: url('../images/ProjectsPageBackground.png');
+    background-size: cover;
+    background-position: center;
+  }
