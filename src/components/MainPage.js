@@ -31,9 +31,9 @@ export default function MainPage() {
             I'm a <strong>software engineer</strong> in Seattle.
         </p>
         <div className="mt-4 d-flex gap-3" style={{ fontFamily: 'Courier New, monospace' }}>
+            <a href="#contact" className="btn btn-outline-dark">about me</a>
             <a href="#experience" className="btn btn-outline-dark">experience</a>
             <a href="#projects" className="btn btn-outline-dark">projects</a>
-            <a href="#contact" className="btn btn-outline-dark">contact</a>
         </div>
     </section>
   );

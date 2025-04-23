@@ -1,13 +1,13 @@
-/* ProjectsPage.css */
+/* ContactsPage.css */
 
-.background-projects {
+.background-contact {
     background-color: #0b85fe;
-    background-image: url('../images/ProjectsPageBackground.png');
+    background-image: url('../images/ContactPageBackground.png');
     background-size: cover;
     background-position: center;
 }
 
-.projects-header {
+.contact-header {
     background-size: auto;
     background-color: rgba(0, 0, 0, 0.1);
   }

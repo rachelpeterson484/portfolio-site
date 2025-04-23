@@ -36,38 +36,54 @@ export default function ProjectsPage() {
     ];
   
     return (
-      <section
+        <section
         id="projects"
-        className="background-projects text-white py-5"
-        style={{ minHeight: '100vh' }}
-      >
-        <div className="container text-center">
-            <h1 className="typed-text">
-                Projects
-            </h1>
-  
-          {projects.map(project => (
-            <div
-              key={project.id}
-              className="d-flex flex-column flex-md-row align-items-center mb-5 p-4 rounded shadow"
-              style={{ backgroundColor: 'rgba(0, 0, 0, 0.20)' }}
-            >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="img-fluid mb-3 mb-md-0 me-md-4"
-                style={{ maxWidth: '300px', borderRadius: '12px' }}
-              />
-              <div className="text-start">
-                <h3 className="mb-2">{project.title}</h3>
-                <p>{project.description}</p>
-                <a href={project.link} className="btn btn-primary me-2">Live Site</a>
-                <a href={project.github} className="btn btn-outline-light">GitHub</a>
-              </div>
+        className="background-projects text-white"
+        style={{ minHeight: '100vh', paddingBottom: '2rem' }}
+        >
+        <div
+            className="projects-header w-100 d-flex align-items-center justify-content-end"
+            style={{
+            position: 'sticky',
+            top: 0,
+            zIndex: 1000,
+            padding: '1rem 20px',
+            backgroundColor: 'transparent',
+            }}
+        >
+            <div className="d-flex gap-3" style={{ fontFamily: 'Courier New, monospace' }}>
+                <a href="#main" className="btn btn-outline-dark">Home</a>
+                <a href="#experience" className="btn btn-outline-dark">Experience</a>
+                <a href="#contact" className="btn btn-outline-dark">About Me</a>
             </div>
-          ))}
         </div>
-      </section>
+
+        <div className="container text-center">
+            <h1 className="typed-text mb-5">Projects</h1>
+
+            {projects.map(project => (
+            <div
+                key={project.id}
+                className="d-flex flex-column flex-md-row align-items-center mb-5 p-4 rounded shadow"
+                style={{ backgroundColor: 'rgba(0, 0, 0, 0.20)' }}
+            >
+                <img
+                    src={project.image}
+                    alt={project.title}
+                    className="img-fluid mb-3 mb-md-0 me-md-4"
+                    style={{ maxWidth: '300px', borderRadius: '12px' }}
+                />
+                <div className="text-start">
+                    <h3 className="mb-2">{project.title}</h3>
+                    <p>{project.description}</p>
+                    <a href={project.link} className="btn btn-primary me-2">Live Site</a>
+                    <a href={project.github} className="btn btn-outline-light">GitHub</a>
+                </div>
+            </div>
+            ))}
+        </div>
+        </section>
+
     );
   }
   

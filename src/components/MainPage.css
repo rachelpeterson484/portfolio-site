@@ -8,6 +8,16 @@
     overflow: hidden;
     display: inline-block;
 }
+
+
+.description {
+    font-size: 1.2rem;
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
   
 .cursor {
     animation: blink 0.7s infinite step-start;

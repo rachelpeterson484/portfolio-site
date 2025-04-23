@@ -7,4 +7,10 @@
   background-size: cover;
   background-position: center;
 }
+
+.experience-header {
+  background-size: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
   
