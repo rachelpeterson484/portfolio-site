@@ -7,9 +7,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div style={{ scrollSnapType: 'y mandatory', height: '100vh', overflowY: 'auto' }}>
-      <MainPage />
-      <ExperiencePage />
-      <ProjectsPage />
+      <div style={{ scrollSnapAlign: 'start', height: '100vh' }}>
+        <MainPage />
+      </div>
+      <div style={{ scrollSnapAlign: 'start', height: '100vh' }}>
+        <ExperiencePage />
+      </div>
+
+      <div style={{ scrollSnapAlign: 'start', height: '100vh', overflowY: 'auto' }}>
+        <ProjectsPage />
+      </div>
     </div>
   );
 }

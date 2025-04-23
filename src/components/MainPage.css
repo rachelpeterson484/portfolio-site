@@ -21,6 +21,14 @@
     background-position: center;
 }
 
+.button {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.custom-button-font {
+    font-family: "Courier New", Courier, monospace;
+  }
+
 @keyframes blink {
     50% {
         opacity: 0;
